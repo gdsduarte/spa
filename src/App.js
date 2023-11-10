@@ -13,8 +13,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/spa" element={<Home />} />
-        <Route path="/products" element={<Products />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/spa/products" element={<Products />} />
+        <Route path="/spa/contact" element={<Contact />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
       <Footer />

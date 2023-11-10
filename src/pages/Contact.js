@@ -16,7 +16,7 @@ export const Contact = () => {
         </p>
 
         <p>
-          This is a link to the <a href="./">Home</a> page.
+          This is a link to the <a href="./spa">Home</a> page.
         </p>
         <p>
           This is a link to the <a href="./products">Products</a> page.
