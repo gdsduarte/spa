@@ -15,10 +15,10 @@ export const Home = () => {
           minima tenetur?
         </p>
         <p>
-          This is a link to the <a href="./spa/products">Products</a> page.
+          This is a link to the <a href="/spa/products">Products</a> page.
         </p>
         <p>
-          This is a link to the <a href="./spa/contact">Contact</a> page.
+          This is a link to the <a href="/spa/contact">Contact</a> page.
         </p>
       </section>
     </>

@@ -16,10 +16,10 @@ export const Products = () => {
         </p>
 
         <p>
-          This is a link to the <a href="./spa">Home</a> page.
+          This is a link to the <a href="./">Home</a> page.
         </p>
         <p>
-          This is a link to the <a href="./spa/contact">Contact</a> page.
+          This is a link to the <a href="./contact">Contact</a> page.
         </p>
       </section>
     </>
