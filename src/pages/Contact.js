@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export const Contact = () => {
   return (
     <>
@@ -16,10 +18,10 @@ export const Contact = () => {
         </p>
 
         <p>
-          This is a link to the <a href="./">Home</a> page.
+          This is a link to the <Link to="/spa">Home</Link> page.
         </p>
         <p>
-          This is a link to the <a href="./products">Products</a> page.
+          This is a link to the <Link to="/spa/products">Products</Link> page.
         </p>
       </section>
     </>

@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export const Home = () => {
   return (
     <>
@@ -15,10 +17,10 @@ export const Home = () => {
           minima tenetur?
         </p>
         <p>
-          This is a link to the <a href="/spa/products">Products</a> page.
+          This is a link to the <Link to="./products">Products</Link> page.
         </p>
         <p>
-          This is a link to the <a href="/spa/contact">Contact</a> page.
+          This is a link to the <Link to="./contact">Contact</Link> page.
         </p>
       </section>
     </>
