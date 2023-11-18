@@ -11,10 +11,13 @@ export const PageNotFound = () => {
 
       <section className="w-820px">
         <p>Sorry, this page does not exist.</p>
-        
+
         <p>
           Return to the website <Link to="/spa">Home</Link> page.
         </p>
+
+        <br />
+        <br />
       </section>
     </>
   );
